@@ -234,7 +234,7 @@ Puppet::Type.newtype(:scheduled_task) do
             'schedule'        => 'monthly',
             'start_time'      => '07:00',
             'day_of_week'     => 'sat',     # Specify the day of the week to trigger on
-            'which_occurence' => 'first'    # Specify which occurance to trigger on, up to fifth
+            'which_occurrence' => 'first'    # Specify which occurance to trigger on, up to fifth
           }
 
           # Run on boot, then once per hour for 12 hours
